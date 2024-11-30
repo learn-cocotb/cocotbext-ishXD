@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1732963238" />
+    <testcase name="tb_dummy_sink_test" classname="dp_sink" file="/home/isha/cocotbext-ishXD/tests/dp_sink.py" lineno="23" time="6.196447134017944" sim_time_ns="1000100.001" ratio_time="161398.94029104838" />
+  </testsuite>
+</testsuites>
