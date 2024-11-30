@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0, '/home/isha/cocotbext-ishXD/src/cocotb_vip_templates')
+sys.path.append('./src/cocotb_vip_templates')
 from monitor import MainLinkMonitor
 
 import cocotb

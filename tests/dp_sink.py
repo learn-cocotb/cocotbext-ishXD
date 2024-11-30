@@ -3,8 +3,7 @@ from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge, Timer
 from cocotb_bus.monitors import Monitor
 import sys
-
-sys.path.insert(0, '/home/isha/cocotbext-ishXD/src/cocotb_vip_templates')
+sys.path.append('./src/cocotb_vip_templates')
 from monitor import AuxChannelMonitor
 
 class DebugPMODMonitor(Monitor):
