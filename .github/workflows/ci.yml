@@ -83,5 +83,8 @@ jobs:
     - name: Install dependencies
       run: pdm install --no-editable -G ci-tests
 
+    - name: Set PYTHONPATH to include the cocotb_vip_templates directory
+      run: echo "PYTHONPATH=$(pwd)/src/cocotb_vip_templates" >> $GITHUB_ENV
+
     - name: Run the test suite
       run: sudo apt install -y iverilog && pdm run make -C tests
