@@ -21,3 +21,5 @@ class MasterDriver:
 
     def anyothervipcmd(self) -> None:
         """Any other command that is mentioned in VIP document."""
+
+
