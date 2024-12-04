@@ -9,7 +9,7 @@
 //////////////////////////////////////////////////////
 
 
-module tb_dummy_sink_actual_tb(
+module tb_dummy_sink_new(
     input clk100,
     output auxch_data,
     output reg   hotplug_detect
